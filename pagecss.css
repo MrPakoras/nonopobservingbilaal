@@ -1,0 +1,170 @@
+body{
+	font-family: 'Calibri';
+	background-color: #1d1c2c;
+	color: #d7ceff;
+}
+
+h1{
+	font-family: 'Calibri';
+}
+
+p{
+	font-family: 'Calibri';
+	color: #1d1c2c;
+}
+
+.title{
+	font-size: 15px;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	margin: 10;
+
+}
+
+.title .title_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+}
+
+
+.timer_container{
+	height: 20%;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #3b2b7d;
+	font-size: 40px;
+	text-align: center;
+}
+
+.timer_container .days_div{
+	background-color: #8d73ff;
+	border-radius: 10px;
+	border: solid 2px #1d1c2c;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	margin-right: 10px;
+	margin: none;
+	padding: 10px;
+
+}
+
+.timer_container .days_div .days_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .hours_div{
+	background-color: #8d73ff;
+	border-radius: 10px;
+	border: solid 2px #1d1c2c;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.timer_container .hours_div .hours_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .mins_div{
+	background-color: #8d73ff;
+	border-radius: 10px;
+	border: solid 2px #1d1c2c;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.timer_container .mins_div .mins_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .secs_div{
+	background-color: #8d73ff;
+	border-radius: 10px;
+	border: solid 2px #1d1c2c;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	
+}
+
+.timer_container .secs_div .secs_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .colon_div{
+	background-color: #8d73ff;
+	border: solid 2px #1d1c2c;
+	border-radius: 10px;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	
+}
+
+.timer_container .colon_div .colon_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.data{
+	background-color: #3b2b7d;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.image{
+	background-color: #101010;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.image .meme{
+	display: block;
+	height: 500px;
+	margin: auto;
+}
