@@ -1,0 +1,173 @@
+body{
+	font-family: 'Calibri';
+	background-image: url('backgroundg.jpg');
+	background-repeat-x: repeat;
+	background-repeat-y: repeat;
+	/*background-color: #6af4ba;*/
+	color: #95ffd2;
+}
+
+h1{
+	font-family: 'Calibri';
+}
+
+p{
+	font-family: 'Calibri';
+	color: #95ffd2;
+}
+
+.title{
+	font-size: 15px;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	margin: 10;
+
+}
+
+.title .title_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+}
+
+
+.timer_container{
+	height: 20%;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #0f4335;
+	font-size: 40px;
+	text-align: center;
+}
+
+.timer_container .days_div{
+	background-color: #061612;
+	border-radius: 10px;
+	border: solid 2px #6af4ba;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	margin-right: 10px;
+	margin: none;
+	padding: 10px;
+
+}
+
+.timer_container .days_div .days_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .hours_div{
+	background-color: #061612;
+	border-radius: 10px;
+	border: solid 2px #6af4ba;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.timer_container .hours_div .hours_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .mins_div{
+	background-color: #061612;
+	border-radius: 10px;
+	border: solid 2px #6af4ba;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.timer_container .mins_div .mins_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .secs_div{
+	background-color: #061612;
+	border-radius: 10px;
+	border: solid 2px #6af4ba;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	
+}
+
+.timer_container .secs_div .secs_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.timer_container .colon_div{
+	background-color: #061612;
+	border: solid 2px #6af4ba;
+	border-radius: 10px;
+	margin: none;
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 20px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	
+}
+
+.timer_container .colon_div .colon_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.data{
+	background-color: #0f4335;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+.image{
+	background-color: #101010;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.image .meme{
+	display: block;
+	height: 500px;
+	margin: auto;
+}
