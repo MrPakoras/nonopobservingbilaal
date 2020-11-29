@@ -2,20 +2,9 @@ from PIL import Image as i
 import math
 
 eps = int(input('>> Episodes watched:   ')) # Episdes watched
-ce = input('>> Total episodes:   ') # Current Episode
-
 
 file = open('ep.txt','r') # Text file with current episode number
-f = file.read()
-file.close()
-
-if ce == '':
-	ce = int(f)
-else:
-	ce = int(ce)
-
-file = open('ep.txt','w')
-file.write(str(ce))
+ce = int(file.read()) # Currnt episode
 file.close()
 
 print(eps, ce)

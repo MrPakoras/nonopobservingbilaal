@@ -40,7 +40,15 @@ var time_since = now - start_date;
 
 var eps_watched = 8; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
-var eps_total = 890
+
+var eps_total = 952
+/*
+fetch('file://./ep.txt')
+  .then(response => response.text())
+  .then(text => console.log(text))
+ // outputs the content of the text file
+*/
+
 var eps_rem = eps_total - eps_watched;
 
 var x = setInterval(function() {
