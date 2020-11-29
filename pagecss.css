@@ -171,3 +171,11 @@ p{
 	height: 500px;
 	margin: auto;
 }
+
+
+.progbar{
+	background-color: #0f4335;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
