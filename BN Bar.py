@@ -20,7 +20,7 @@ bar = i.new(mode, (math.floor((twid-20)*perc), thei-20), (0, 255, 145))# Progres
 
 bkg.paste(bar, (10,10))
 
-bkg.save('proggggggggress_bar.png')
+bkg.save('progress_bar.png')
 bkg.show()
 
 # filepath = 'C:/Users/Anas/AppData/Local/GitHubDesktop/GitHubDesktop.exe'
