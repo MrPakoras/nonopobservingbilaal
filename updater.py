@@ -21,7 +21,7 @@ try:
 
 	if len(ul) == 2:
 		new = re.sub(r"var start_date = new Date\('.*'\)\.getTime\(\); \/\/ Edit this", f"var start_date = new Date('{ul[1]}').getTime(); // Edit this", fr)
-		fwrite()
+		fwrite(new)
 		print(f'{Fore.GREEN}>> Updated HTML - Ep: {ul[0]} | Date: {ul[1]}')
 	elif len(ul) == 1:
 		dt = time.strftime('%b %d %Y')
