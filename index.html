@@ -133,5 +133,10 @@ document.getElementById('eps_rem').innerHTML = eps_rem
 	<img src='progress_bar.png' >
 </div>
 
+<script>
+	var perc_complete = ((eps_watched/eps_total)*100).toFixed(2); // rounds to 2 decimal places
+	document.getElementById('perc_complete_text').innerHTML = 'Completion: '+perc_complete+'%';
+</script>
+
 </body>
 </html>
